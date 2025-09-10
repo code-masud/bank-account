@@ -1,5 +1,10 @@
 import unittest
+import sys
+import os
 from utils.security import hash_password, verify_password
+
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestSecurity(unittest.TestCase):
     
