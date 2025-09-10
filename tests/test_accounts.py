@@ -1,6 +1,5 @@
 import unittest
-from savings_account import SavingAccount
-from checking_account import CheckingAccount
+from models import SavingAccount, CheckingAccount
 
 class TestBankAccounts(unittest.TestCase):
     

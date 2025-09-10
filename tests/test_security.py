@@ -1,5 +1,5 @@
 import unittest
-from security import hash_password, verify_password
+from utils.security import hash_password, verify_password
 
 class TestSecurity(unittest.TestCase):
     

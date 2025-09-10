@@ -1,4 +1,4 @@
-from base_account import BankAccount
+from .base_account import BankAccount
 
 class SavingAccount(BankAccount):
     def __init__(self, account_number, owner_name, initial_balance=0, password="", interest_rate=0.02):

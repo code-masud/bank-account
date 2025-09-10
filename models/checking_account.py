@@ -1,4 +1,4 @@
-from base_account import BankAccount
+from .base_account import BankAccount
 
 class CheckingAccount(BankAccount):
     

@@ -5,5 +5,4 @@ Description: For this project, we only need standard library modules. No externa
 
 How to Run the Project:<br>
 python main.py<br>
-python test_accounts.py<br>
-python test_security.py
+python -m unittest discover tests

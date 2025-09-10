@@ -1,5 +1,4 @@
-from savings_account import SavingAccount
-from checking_account import CheckingAccount
+from models import SavingAccount, CheckingAccount
 
 def demonstrated_accounts():
     print("=== Bank Account Management System ===")
